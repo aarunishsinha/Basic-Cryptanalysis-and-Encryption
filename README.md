@@ -54,3 +54,10 @@ q : e, 4 : l, 1 : a, n : h, 9 : v, r : i, y : n, p : g, z : d,
 t : r, $ : o, @ : t, v : s, 7 : b, 5 : w, # : u, 8 : p, 3 : c,
 s : m, w : f, 2 : y, 6 : k, x : j, 0 : z, u : q, o : x
 ```
+### README:
+```
+$ python3 substitutioncrack.py cipher1.txt
+OR
+$ python3 substitutioncrack.py cipher2.txt
+```
+Output is shown on the terminal.

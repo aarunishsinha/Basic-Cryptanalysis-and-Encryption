@@ -61,3 +61,14 @@ OR
 $ python3 substitutioncrack.py cipher2.txt
 ```
 Output is shown on the terminal.
+
+## Birthday Attack
+### To-Do:
+Implement the birthday attack against SHA-3 with smaller length of the hash output as follows:
+- Given the length (in bits) of the hash output d, write a program which returns a tuple (s1 , s2 , h, m, n) where s1 and s2 are two strings of the same length and with the same hash output h, m is the largest memory (in bits) required to store the strings during the execution of the program, and n is the number of attempted/tested string pairs to find the collision.
+- For each value of d between 1 and 24 bits, output three tuples with colli- sions.
+- Compute the average number of attempts navg and average memory mavg.
+- Draw a plot where X-axis represents the length of the hash output d and
+Y-axis represents the average number of attempts navg.
+- Draw another plot where X-axis represents the length of the hash output
+d and Y-axis represents the average memory mavg.

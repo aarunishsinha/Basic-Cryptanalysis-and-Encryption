@@ -77,3 +77,31 @@ d and Y-axis represents the average memory m<sub>avg</sub>.
 The plots are for strings of length = 10.\
 ![alt text](https://github.com/aarunishsinha/Basic-Cryptanalysis-and-Encryption/blob/main/Birthday%20Attack/plotm1.jpg)
 ![alt text](https://github.com/aarunishsinha/Basic-Cryptanalysis-and-Encryption/blob/main/Birthday%20Attack/plotn1.jpg)
+### README:
+```
+$ python3 birthdayattack.py <length of string>
+```
+
+## Cracking RSA
+### To-Do:
+Crack RSA for small values of n as follows:
+- Given a number n from the file ```nlist.txt```, compute the prime factors p and
+q.
+- Record the time taken t to obtain these prime factors.
+- Compute the public and private keys.
+- Given the message M in the file ```plaintext.txt```, use the public key to encrypt the message M to ciphertext C.
+- Decrypt the obtained ciphertext C back to the plaintext to validate your code.
+
+### Prime Factorisation
+For factorizing the numbers given in ```nlist.txt```, I have implemented Pollard Rho’s algorithm.\
+My implementation can factorize upto 124467766935600336959819416267497 (112th number in the list) within 5 minutes.
+![alt text](https://github.com/aarunishsinha/Basic-Cryptanalysis-and-Encryption/blob/main/Cracking%20RSA/plot.jpg)
+
+### Cracking RSA
+My implementation of RSA can successfully encrypt and decrypt till the 94th number in the list. After that it fails while decryption due to the limitations of the modulo operator in python.\
+For encryption, first I converted each character in ```plaintext.txt``` to its ASCII decimal representation. I have stored these values in an array and the performed encryption and decryption on each element of the array.
+
+### README:
+```
+python3 crack.py n plaintext.py
+```

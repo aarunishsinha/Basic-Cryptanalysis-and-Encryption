@@ -73,3 +73,7 @@ Y-axis represents the average number of attempts n<sub>avg</sub>.
 - Draw another plot where X-axis represents the length of the hash output
 d and Y-axis represents the average memory m<sub>avg</sub>.
 
+### Plots:
+The plots are for strings of length = 10.\
+![alt text](https://github.com/aarunishsinha/Basic-Cryptanalysis-and-Encryption/blob/main/Birthday%20Attack/plotm1.jpg)
+![alt text](https://github.com/aarunishsinha/Basic-Cryptanalysis-and-Encryption/blob/main/Birthday%20Attack/plotn1.jpg)
